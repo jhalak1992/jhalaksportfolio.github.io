@@ -26,10 +26,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Setup NVM
-      run: |
-        export NVM_DIR=~/.nvm
-        source ~/.nvm/nvm.sh
-    - run: npm install
-    - run: npm run dev
-    - run: npm test
+    - name: Clean npm cache
+      run: npm cache clean --force
+      
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Build project
+      run: npm run build
