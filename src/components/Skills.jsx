@@ -1,15 +1,15 @@
 import React from 'react';
 
 const SkillCard = ({ title, skills }) => (
-  <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300 h-full">
-    <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-4 min-h-[3rem] flex items-center">
+  <div className="bg-card-dark p-6 rounded-xl border border-gray-800 shadow-lg hover:shadow-xl transition-all duration-300 h-full hover:border-accent-dark/50">
+    <h3 className="text-lg md:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 mb-4 min-h-[3rem] flex items-center hover:scale-105 transition-transform duration-200">
       {title}
     </h3>
     <div className="flex flex-wrap gap-2">
       {skills.map((skill, index) => (
         <span
           key={index}
-          className="px-3 py-1.5 bg-blue-50 text-blue-600 rounded-full text-sm font-medium hover:bg-blue-100 transition-colors duration-200 whitespace-nowrap"
+          className="px-3 py-1.5 bg-accent-dark/10 text-text-dark rounded-full text-sm font-medium hover:bg-accent-dark/20 transition-all duration-200 whitespace-nowrap"
         >
           {skill.trim()}
         </span>
@@ -94,7 +94,7 @@ const Skills = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-16">
-      <h2 className="text-3xl font-bold text-gray-800 text-center mb-12">
+      <h2 className="text-3xl font-bold text-3xl text-text-dark text-center mb-12">
         Technical Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
