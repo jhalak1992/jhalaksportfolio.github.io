@@ -44,7 +44,7 @@ const Projects = () => {
       company: "Salesforce Inc",
       role: "Software Engineer",
       duration: "3 years, 5 months",
-      logo: "/src/assets/company-logos/salesforce.png",
+      logo: "/company-logos/salesforce.png",
       projects: [
         "Built unified B2B/B2C commerce components",
         "Developed AI conversational shopping platform",
@@ -58,7 +58,7 @@ const Projects = () => {
       company: "Intuit Inc",
       role: "Software Engineer 2",
       duration: "3 years, 2 months",
-      logo: "/src/assets/company-logos/intuit.png",
+      logo: "/company-logos/intuit.png",
       projects: [
         "Led personalized account connection recommendations",
         "Enabled one-click account connection reuse",
@@ -72,7 +72,7 @@ const Projects = () => {
       company: "Intuit Inc",
       role: "Software Engineer – Co-op",
       duration: "7 months",
-      logo: "/src/assets/company-logos/intuit.png",
+      logo: "/company-logos/intuit.png",
       projects: [
         "Designed UI for tax verification",
         "Automated Java services layer access",
@@ -83,7 +83,7 @@ const Projects = () => {
       company: "Infogain",
       role: "Software Engineer",
       duration: "2 years, 2 months",
-      logo: "/src/assets/company-logos/infogain.png",
+      logo: "/company-logos/infogain.png",
       projects: [
         "Developed various e-commerce UI modules for client Fashion and You",
         "Developed an extensive PDP, PLP, Cart, Wishlist, Profile, Address, Payment, etc. e-commerce modules for client Karbonn Mobiles"
